@@ -1,0 +1,11 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "Cognito Test",
+      "group": "Test",
+      "database": "${workspaceFolder:nextjs-cognito}/sqlite.db"
+    }
+  ]
+}
