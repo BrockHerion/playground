@@ -46,7 +46,7 @@ export default function LoginPage() {
   };
 
   return (
-    <form className="flex flex-col gap-2 text-black">
+    <form className="flex flex-col gap-2 text-black" onSubmit={handleSubmit}>
       <input
         type="email"
         value={email}
